@@ -1,4 +1,6 @@
 # Digital-Defense: Closed-loop XAI + Laser Attack & Color-Filter Defenses
+**This model is compatible with Siemens Energy T3000. The experiment involves three devices (including Siemens S7-1500, Siemens Energy T3000, etc.).  
+Simply replace `panel_cls_full.pt` and `panel_cls_surrogate.pt` to complete the migration.**
 
 This repository contains a **closed-loop physical attack & defense framework** for an industrial vision classifier.  
 A camera observes an HMI / panel, a Raspberry Pi drives two servos and a laser pointer, and a PC controls the whole loop using Grad-CAM to aim the laser at the most influential pixels of a **surrogate model** while monitoring a **main (victim) model**.
